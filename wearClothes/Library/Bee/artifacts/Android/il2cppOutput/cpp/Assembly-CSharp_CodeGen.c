@@ -1,0 +1,133 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void drag::Start()
+extern void drag_Start_mAE32A5AF9955840095646006281BF51A669FACD5 (void);
+// 0x00000002 System.Void drag::Update()
+extern void drag_Update_m0EE937C19327713D424C7FEF3758355156E02ECA (void);
+// 0x00000003 System.Void drag::Dragpic1()
+extern void drag_Dragpic1_mD847B86609318D456A36C68C2E6D262C734F270E (void);
+// 0x00000004 System.Void drag::Droppic1()
+extern void drag_Droppic1_m3DA55465C727BEB625E502B7AC62079FF5DCDEF8 (void);
+// 0x00000005 System.Void drag::Dragpic2()
+extern void drag_Dragpic2_m7E0B0107E9327C3F0D0A787F0CBB4E2444A7714B (void);
+// 0x00000006 System.Void drag::Droppic2()
+extern void drag_Droppic2_m32B908797AD66DF88C7EBAC094F90AF659F881CE (void);
+// 0x00000007 System.Void drag::Dragpic3()
+extern void drag_Dragpic3_mE003B6A547A56992349FA94127C365EF77FAA204 (void);
+// 0x00000008 System.Void drag::Droppic3()
+extern void drag_Droppic3_m28D0FE696C8F98909EE111936C1CA473C0CED606 (void);
+// 0x00000009 System.Void drag::Dragpic4()
+extern void drag_Dragpic4_m0A2CB7378F4066FFD1033AC3683A411DD03D04B8 (void);
+// 0x0000000A System.Void drag::Droppic4()
+extern void drag_Droppic4_mFFBFAA371F656090D93F980061F9DE959C020BD1 (void);
+// 0x0000000B System.Void drag::Dragpic5()
+extern void drag_Dragpic5_m3B7CCD8A5981380339B0061326033F75A5DE4DBE (void);
+// 0x0000000C System.Void drag::Droppic5()
+extern void drag_Droppic5_mA6F58922D2D5D91D9725A0DA0BB48F34A3E0A427 (void);
+// 0x0000000D System.Void drag::Dragpic6()
+extern void drag_Dragpic6_m22673B182AEA29FA53E37463009CED5706170FF9 (void);
+// 0x0000000E System.Void drag::Droppic6()
+extern void drag_Droppic6_m0280D162C3F2F04332ECDE1C7DB8D4EAE84647F6 (void);
+// 0x0000000F System.Void drag::Dragpic7()
+extern void drag_Dragpic7_m43E9D85F208A4A5C9212C954B2D9C5C2AF77ABA1 (void);
+// 0x00000010 System.Void drag::Droppic7()
+extern void drag_Droppic7_m65648CF2A3C22FAF1EDC051AFB34A836E7A20989 (void);
+// 0x00000011 System.Void drag::Dragpic8()
+extern void drag_Dragpic8_mA35856560F71422E61A230C50DAF883BE84C5524 (void);
+// 0x00000012 System.Void drag::Droppic8()
+extern void drag_Droppic8_m9337B355A0E4BF3F4EB701508BA71F2DB6AAF288 (void);
+// 0x00000013 System.Void drag::Dragpic9()
+extern void drag_Dragpic9_m15397272E79FCA98B0E8412B299027DB8D3BD67B (void);
+// 0x00000014 System.Void drag::Droppic9()
+extern void drag_Droppic9_mC01ADCCA01844F6593A7A909423E9AA42A548177 (void);
+// 0x00000015 System.Void drag::Dragpic10()
+extern void drag_Dragpic10_m95863F1689B3F02CBBDE42C9DAE54F1AD79C3CB9 (void);
+// 0x00000016 System.Void drag::Droppic10()
+extern void drag_Droppic10_m20E73C432DFC40EE815044A22EB38996FE8113D3 (void);
+// 0x00000017 System.Void drag::.ctor()
+extern void drag__ctor_m95E7284B5FFE075F528AA912AB6C97C6F6C528EB (void);
+static Il2CppMethodPointer s_methodPointers[23] = 
+{
+	drag_Start_mAE32A5AF9955840095646006281BF51A669FACD5,
+	drag_Update_m0EE937C19327713D424C7FEF3758355156E02ECA,
+	drag_Dragpic1_mD847B86609318D456A36C68C2E6D262C734F270E,
+	drag_Droppic1_m3DA55465C727BEB625E502B7AC62079FF5DCDEF8,
+	drag_Dragpic2_m7E0B0107E9327C3F0D0A787F0CBB4E2444A7714B,
+	drag_Droppic2_m32B908797AD66DF88C7EBAC094F90AF659F881CE,
+	drag_Dragpic3_mE003B6A547A56992349FA94127C365EF77FAA204,
+	drag_Droppic3_m28D0FE696C8F98909EE111936C1CA473C0CED606,
+	drag_Dragpic4_m0A2CB7378F4066FFD1033AC3683A411DD03D04B8,
+	drag_Droppic4_mFFBFAA371F656090D93F980061F9DE959C020BD1,
+	drag_Dragpic5_m3B7CCD8A5981380339B0061326033F75A5DE4DBE,
+	drag_Droppic5_mA6F58922D2D5D91D9725A0DA0BB48F34A3E0A427,
+	drag_Dragpic6_m22673B182AEA29FA53E37463009CED5706170FF9,
+	drag_Droppic6_m0280D162C3F2F04332ECDE1C7DB8D4EAE84647F6,
+	drag_Dragpic7_m43E9D85F208A4A5C9212C954B2D9C5C2AF77ABA1,
+	drag_Droppic7_m65648CF2A3C22FAF1EDC051AFB34A836E7A20989,
+	drag_Dragpic8_mA35856560F71422E61A230C50DAF883BE84C5524,
+	drag_Droppic8_m9337B355A0E4BF3F4EB701508BA71F2DB6AAF288,
+	drag_Dragpic9_m15397272E79FCA98B0E8412B299027DB8D3BD67B,
+	drag_Droppic9_mC01ADCCA01844F6593A7A909423E9AA42A548177,
+	drag_Dragpic10_m95863F1689B3F02CBBDE42C9DAE54F1AD79C3CB9,
+	drag_Droppic10_m20E73C432DFC40EE815044A22EB38996FE8113D3,
+	drag__ctor_m95E7284B5FFE075F528AA912AB6C97C6F6C528EB,
+};
+static const int32_t s_InvokerIndices[23] = 
+{
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+	3186,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	23,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
